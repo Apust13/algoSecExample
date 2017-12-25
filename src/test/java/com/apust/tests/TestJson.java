@@ -35,6 +35,12 @@ public class TestJson extends MainTest {
         };
         return data;
     }
+	
+	/*
+		The implementation of work with webdriver is abstract, because HTML code source of web page is absent. 
+		This applies to XPath of locators, and to some methods of work with web elements.
+		Also, all of places of code wich interact with web part is commented out.
+	*/
 
 
     @Parameters({"login", "password", "expResult"})
